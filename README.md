@@ -1,4 +1,5 @@
 # REACT-QUERY-GROUND
 
-- [ ] learn useQuery, useMutation hooks making blogs
-- [ ] learn useInfinityQuery by making star wars app
+- [x] learn useQuery, useMutation hooks making blogs
+- [x] learn useInfinityQuery by making star wars app
+- [ ] using react-query in large size application
