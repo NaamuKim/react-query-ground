@@ -1,9 +1,9 @@
 import jsonpatch from 'fast-json-patch';
 import { UseMutateFunction, useMutation, useQueryClient } from 'react-query';
-import { queryKeys } from 'react-query/constants';
 
 import type { User } from '../../../../../shared/types';
 import { axiosInstance, getJWTHeader } from '../../../axiosInstance';
+import { queryKeys } from '../../../react-query/constants';
 import { useCustomToast } from '../../app/hooks/useCustomToast';
 import { useUser } from './useUser';
 
